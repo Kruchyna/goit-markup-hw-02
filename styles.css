@@ -1,0 +1,33 @@
+.site-nav, .nav-adres-list.current{
+    color: var(--blue);
+}
+
+.nav-adres-list{
+    color: var(--title-black-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-adres-list .link:hover,
+.nav-adres-list .link:focus{
+    color: var(--accent-text-color);
+}
+
+.nav-adres-list .link.current{
+    color: var(--accent-text-color);
+}
+
+.list-item .contacts{
+
+}
+
+.sort-button{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
