@@ -2,7 +2,7 @@ body{
     font-family: Roboto, sans-serif ;
 }
 
-ul, ol{
+ul, li, ol{
     list-style: none;
 }
 
@@ -113,7 +113,7 @@ color: var(--logo-black-color);
    
 }
 
-.project-explanation .text p{
+.project-explanation .text{
     color: var(--main-text-color);
 }
 
@@ -128,7 +128,7 @@ color: var(--logo-black-color);
     text-decoration: none;
 }
 
-.logo-footer a{
+.logo-footer {
     color:var(--logo-blue-color);
     font-family: Raleway;
     top: 2157px;
