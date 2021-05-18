@@ -55,7 +55,8 @@ color: var(--logo-black-color);
    
 }
 
-.nav-adres-list .link.current{
+.nav-adres-list .link.current,
+.nav-adres-list .link {
     color: var(--accent-text-color);
     text-decoration: none;
 }
