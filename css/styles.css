@@ -35,31 +35,48 @@ color: var(--logo-black-color);
     color: var(--logo-blue-color);
 }
 
-.site-nav, .nav-adres-list.current{
+.site-nav, .nav-list .current{
     color: var(--blue);
 }
 
-.nav-adres-list a{
+.nav-list .link,
+.nav-contacts-list .contacts a{
     color: var(--title-black-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-
 }
 
-.nav-adres-list .link:hover,
-.nav-adres-list .link:focus{
+.nav-list .link:hover,
+.nav-list .link:focus{
     color: var(--accent-text-color);
    
 }
 
-.nav-adres-list .link.current,
-.nav-adres-list .link {
+.nav-list .link .current{
     color: var(--accent-text-color);
     text-decoration: none;
 }
+
+.nav-contacts-list.tel .contacts {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.nav-contacts-list .contacts {
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+
+
+.nav-contacts-list.tel .contacts {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+
 
 
 .order {
